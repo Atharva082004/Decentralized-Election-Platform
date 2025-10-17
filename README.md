@@ -62,9 +62,10 @@ A secure, transparent, and tamper-proof blockchain-based voting system built on 
 
 1. **Clone the repository**
 
+```
 git clone https://github.com/yourusername/decentralized-election-platform.git
 cd decentralized-election-platform
-
+```
 
 2. **Deploy Smart Contracts**
    - Open [Remix IDE](https://remix.ethereum.org)
@@ -77,7 +78,9 @@ cd decentralized-election-platform
    - Open `app.js`
    - Update `FACTORY_ADDRESS` with your deployed address:
 
+```
 const FACTORY_ADDRESS = "0xYourFactoryAddress";
+```
 
 
 4. **Run the Application**
